@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 124" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07061a"/><stop offset="1" stop-color="#120a2c"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fbbf24" stop-opacity="0.28"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    .tag { font-family: 'JetBrains Mono','Fira Code',monospace; font-size: 10.5px; font-weight: bold; letter-spacing: 1px; fill: #fbbf24; }
+    .name { font-family: 'Inter','Segoe UI',-apple-system,Arial,sans-serif; font-size: 26px; font-weight: 800; fill: #f3f5ff; }
+    .line { font-family: 'JetBrains Mono',monospace; font-size: 12px; fill: #98a3c7; }
+    .stack { font-family: 'JetBrains Mono',monospace; font-size: 9.5px; font-weight: bold; letter-spacing: 1px; fill: #5a6590; }
+    .lbl { font-family: 'JetBrains Mono',monospace; font-size: 10px; font-weight: bold; letter-spacing: 1.5px; fill: #7a86b0; }
+    .val { font-family: 'Inter','Segoe UI',Arial,sans-serif; font-size: 28px; font-weight: 800; fill: #fbbf24; }
+    .sub { font-family: 'JetBrains Mono',monospace; font-size: 9px; font-weight: bold; letter-spacing: 0.5px; fill: #6a76a0; }
+  </style>
+  <rect width="850" height="124" rx="10" fill="url(#bg)" stroke="#241a4a" stroke-width="1.2"/>
+  <ellipse cx="760" cy="20" rx="170" ry="90" fill="url(#glow)"/>
+  <g><circle cx="816.0" cy="108.1" r="0.6" fill="#ffffff"><animate attributeName="opacity" values="0.50;0.1;0.50" dur="5.0s" begin="-4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="14.2" cy="20.7" r="0.6" fill="#e6d4ff"><animate attributeName="opacity" values="0.33;0.1;0.33" dur="5.1s" begin="-2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="51.7" cy="25.2" r="0.8" fill="#cfe3ff"><animate attributeName="opacity" values="0.50;0.1;0.50" dur="5.8s" begin="-1.0s" repeatCount="indefinite"/></circle>
+    <circle cx="254.2" cy="5.0" r="1.0" fill="#cfe3ff"><animate attributeName="opacity" values="0.60;0.1;0.60" dur="5.9s" begin="-5.2s" repeatCount="indefinite"/></circle>
+    <circle cx="33.2" cy="4.8" r="0.5" fill="#cfe3ff"><animate attributeName="opacity" values="0.79;0.1;0.79" dur="4.5s" begin="-2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="61.3" cy="77.3" r="1.3" fill="#ffffff"><animate attributeName="opacity" values="0.38;0.1;0.38" dur="2.6s" begin="-4.0s" repeatCount="indefinite"/></circle>
+    <circle cx="684.7" cy="67.9" r="0.6" fill="#ffffff"><animate attributeName="opacity" values="0.84;0.1;0.84" dur="3.1s" begin="-3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="33.9" cy="46.9" r="0.6" fill="#ffffff"><animate attributeName="opacity" values="0.55;0.1;0.55" dur="4.7s" begin="-0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="130.9" cy="1.2" r="0.6" fill="#cfe3ff" opacity="0.33"/>
+    <circle cx="527.9" cy="89.0" r="1.3" fill="#ffffff" opacity="0.56"/>
+    <circle cx="611.6" cy="38.5" r="0.5" fill="#e6d4ff" opacity="0.81"/>
+    <circle cx="713.7" cy="64.4" r="1.3" fill="#ffffff" opacity="0.71"/>
+    <circle cx="492.2" cy="3.5" r="0.5" fill="#cfe3ff" opacity="0.38"/>
+    <circle cx="748.6" cy="15.5" r="0.6" fill="#e6d4ff" opacity="0.63"/>
+    <circle cx="74.5" cy="110.3" r="0.8" fill="#ffffff" opacity="0.32"/>
+    <circle cx="541.2" cy="104.6" r="0.5" fill="#ffffff" opacity="0.52"/>
+    <circle cx="849.5" cy="48.3" r="1.3" fill="#ffffff" opacity="0.37"/>
+    <circle cx="158.2" cy="106.0" r="0.6" fill="#e6d4ff" opacity="0.63"/>
+    <circle cx="70.7" cy="24.8" r="0.5" fill="#e6d4ff" opacity="0.50"/>
+    <circle cx="194.7" cy="65.8" r="0.6" fill="#e6d4ff" opacity="0.56"/>
+    <circle cx="414.8" cy="8.9" r="0.8" fill="#cfe3ff" opacity="0.62"/>
+    <circle cx="191.7" cy="8.8" r="0.5" fill="#cfe3ff" opacity="0.57"/>
+    <circle cx="663.3" cy="114.9" r="1.3" fill="#e6d4ff" opacity="0.75"/>
+    <circle cx="375.6" cy="8.9" r="1.3" fill="#cfe3ff" opacity="0.34"/>
+    <circle cx="34.0" cy="71.7" r="0.6" fill="#ffffff" opacity="0.55"/>
+    <circle cx="149.2" cy="33.5" r="0.5" fill="#e6d4ff" opacity="0.42"/></g>
+  <rect x="0" y="14" width="4" height="96" rx="2" fill="#fbbf24"/>
+  <text x="36" y="30" class="tag">[05 // DRIVER EXTENSION]</text>
+  <text x="36" y="64" class="name">ClickHouse Extension</text>
+  <text x="36" y="87" class="line">ClickHouse driver extension for Querya Desktop, written in Rust.</text>
+  <text x="36" y="108" class="stack">RUST  •  CLICKHOUSE  •  QUERYA EXTENSION</text>
+  <line x1="660" y1="24" x2="660" y2="100" stroke="#241a4a" stroke-width="1"/>
+  <text x="684" y="36" class="lbl">STARS</text>
+  <text x="684" y="72" class="val">★ 0</text>
+  <text x="684" y="94" class="sub">5 DOWNLOADS</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 124" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07061a"/><stop offset="1" stop-color="#120a2c"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#4fb0f5" stop-opacity="0.28"/><stop offset="1" stop-color="#4fb0f5" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    .tag { font-family: 'JetBrains Mono','Fira Code',monospace; font-size: 10.5px; font-weight: bold; letter-spacing: 1px; fill: #4fb0f5; }
+    .name { font-family: 'Inter','Segoe UI',-apple-system,Arial,sans-serif; font-size: 26px; font-weight: 800; fill: #f3f5ff; }
+    .line { font-family: 'JetBrains Mono',monospace; font-size: 12px; fill: #98a3c7; }
+    .stack { font-family: 'JetBrains Mono',monospace; font-size: 9.5px; font-weight: bold; letter-spacing: 1px; fill: #5a6590; }
+    .lbl { font-family: 'JetBrains Mono',monospace; font-size: 10px; font-weight: bold; letter-spacing: 1.5px; fill: #7a86b0; }
+    .val { font-family: 'Inter','Segoe UI',Arial,sans-serif; font-size: 28px; font-weight: 800; fill: #4fb0f5; }
+    .sub { font-family: 'JetBrains Mono',monospace; font-size: 9px; font-weight: bold; letter-spacing: 0.5px; fill: #6a76a0; }
+  </style>
+  <rect width="850" height="124" rx="10" fill="url(#bg)" stroke="#241a4a" stroke-width="1.2"/>
+  <ellipse cx="760" cy="20" rx="170" ry="90" fill="url(#glow)"/>
+  <g><circle cx="123.8" cy="56.4" r="0.6" fill="#e6d4ff"><animate attributeName="opacity" values="0.71;0.1;0.71" dur="3.7s" begin="-3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="93.5" cy="15.0" r="1.0" fill="#e6d4ff"><animate attributeName="opacity" values="0.42;0.1;0.42" dur="5.8s" begin="-5.7s" repeatCount="indefinite"/></circle>
+    <circle cx="285.0" cy="38.4" r="0.6" fill="#ffffff"><animate attributeName="opacity" values="0.87;0.1;0.87" dur="3.2s" begin="-2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="532.4" cy="119.5" r="0.6" fill="#cfe3ff"><animate attributeName="opacity" values="0.51;0.1;0.51" dur="4.4s" begin="-5.4s" repeatCount="indefinite"/></circle>
+    <circle cx="695.3" cy="19.9" r="0.5" fill="#e6d4ff"><animate attributeName="opacity" values="0.37;0.1;0.37" dur="3.9s" begin="-4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="481.2" cy="23.9" r="0.5" fill="#ffffff"><animate attributeName="opacity" values="0.84;0.1;0.84" dur="5.9s" begin="-4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="784.0" cy="48.1" r="1.3" fill="#ffffff"><animate attributeName="opacity" values="0.61;0.1;0.61" dur="4.6s" begin="-4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="658.7" cy="62.9" r="0.8" fill="#cfe3ff"><animate attributeName="opacity" values="0.70;0.1;0.70" dur="4.3s" begin="-2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="726.0" cy="45.0" r="1.0" fill="#ffffff" opacity="0.51"/>
+    <circle cx="691.7" cy="110.4" r="1.0" fill="#e6d4ff" opacity="0.41"/>
+    <circle cx="607.5" cy="95.1" r="1.3" fill="#e6d4ff" opacity="0.77"/>
+    <circle cx="216.1" cy="7.2" r="1.3" fill="#ffffff" opacity="0.81"/>
+    <circle cx="46.4" cy="34.1" r="0.5" fill="#e6d4ff" opacity="0.72"/>
+    <circle cx="753.4" cy="109.9" r="1.3" fill="#e6d4ff" opacity="0.65"/>
+    <circle cx="683.6" cy="90.2" r="0.8" fill="#ffffff" opacity="0.47"/>
+    <circle cx="586.1" cy="59.0" r="1.3" fill="#e6d4ff" opacity="0.33"/>
+    <circle cx="177.8" cy="48.3" r="0.5" fill="#e6d4ff" opacity="0.51"/>
+    <circle cx="128.8" cy="121.7" r="1.0" fill="#ffffff" opacity="0.86"/>
+    <circle cx="595.7" cy="20.0" r="1.0" fill="#ffffff" opacity="0.82"/>
+    <circle cx="846.2" cy="115.8" r="0.6" fill="#ffffff" opacity="0.31"/>
+    <circle cx="180.0" cy="11.2" r="0.8" fill="#e6d4ff" opacity="0.29"/>
+    <circle cx="341.7" cy="67.0" r="1.0" fill="#e6d4ff" opacity="0.54"/>
+    <circle cx="386.1" cy="24.1" r="1.3" fill="#cfe3ff" opacity="0.81"/>
+    <circle cx="123.5" cy="25.9" r="1.0" fill="#e6d4ff" opacity="0.30"/>
+    <circle cx="228.6" cy="122.6" r="0.8" fill="#ffffff" opacity="0.80"/>
+    <circle cx="161.9" cy="123.8" r="1.0" fill="#ffffff" opacity="0.87"/></g>
+  <rect x="0" y="14" width="4" height="96" rx="2" fill="#4fb0f5"/>
+  <text x="36" y="30" class="tag">[01 // DATABASE STUDIO]</text>
+  <text x="36" y="64" class="name">Querya Desktop</text>
+  <text x="36" y="87" class="line">Cross-platform SQL &amp; NoSQL studio with a 2D virtualized grid and DML staging buffer.</text>
+  <text x="36" y="108" class="stack">FLUTTER  •  POSTGRESQL  •  MYSQL  •  SQLITE  •  REDIS  •  MONGODB</text>
+  <line x1="660" y1="24" x2="660" y2="100" stroke="#241a4a" stroke-width="1"/>
+  <text x="684" y="36" class="lbl">STARS</text>
+  <text x="684" y="72" class="val">★ 23</text>
+  <text x="684" y="94" class="sub">134 DOWNLOADS</text>
+</svg>

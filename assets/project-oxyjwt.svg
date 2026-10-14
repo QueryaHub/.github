@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 124" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07061a"/><stop offset="1" stop-color="#120a2c"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#b45cff" stop-opacity="0.28"/><stop offset="1" stop-color="#b45cff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    .tag { font-family: 'JetBrains Mono','Fira Code',monospace; font-size: 10.5px; font-weight: bold; letter-spacing: 1px; fill: #b45cff; }
+    .name { font-family: 'Inter','Segoe UI',-apple-system,Arial,sans-serif; font-size: 26px; font-weight: 800; fill: #f3f5ff; }
+    .line { font-family: 'JetBrains Mono',monospace; font-size: 12px; fill: #98a3c7; }
+    .stack { font-family: 'JetBrains Mono',monospace; font-size: 9.5px; font-weight: bold; letter-spacing: 1px; fill: #5a6590; }
+    .lbl { font-family: 'JetBrains Mono',monospace; font-size: 10px; font-weight: bold; letter-spacing: 1.5px; fill: #7a86b0; }
+    .val { font-family: 'Inter','Segoe UI',Arial,sans-serif; font-size: 28px; font-weight: 800; fill: #b45cff; }
+    .sub { font-family: 'JetBrains Mono',monospace; font-size: 9px; font-weight: bold; letter-spacing: 0.5px; fill: #6a76a0; }
+  </style>
+  <rect width="850" height="124" rx="10" fill="url(#bg)" stroke="#241a4a" stroke-width="1.2"/>
+  <ellipse cx="760" cy="20" rx="170" ry="90" fill="url(#glow)"/>
+  <g><circle cx="494.0" cy="24.1" r="1.3" fill="#cfe3ff"><animate attributeName="opacity" values="0.85;0.1;0.85" dur="2.7s" begin="-3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="511.7" cy="113.8" r="1.0" fill="#ffffff"><animate attributeName="opacity" values="0.70;0.1;0.70" dur="3.7s" begin="-2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="217.0" cy="20.0" r="1.0" fill="#cfe3ff"><animate attributeName="opacity" values="0.75;0.1;0.75" dur="3.2s" begin="-4.7s" repeatCount="indefinite"/></circle>
+    <circle cx="203.0" cy="98.1" r="1.0" fill="#cfe3ff"><animate attributeName="opacity" values="0.39;0.1;0.39" dur="4.1s" begin="-1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="554.4" cy="77.5" r="0.8" fill="#cfe3ff"><animate attributeName="opacity" values="0.68;0.1;0.68" dur="3.9s" begin="-2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="359.5" cy="50.2" r="1.0" fill="#cfe3ff"><animate attributeName="opacity" values="0.25;0.1;0.25" dur="3.3s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="676.3" cy="46.0" r="0.8" fill="#e6d4ff"><animate attributeName="opacity" values="0.26;0.1;0.26" dur="5.4s" begin="-5.9s" repeatCount="indefinite"/></circle>
+    <circle cx="367.0" cy="34.4" r="0.6" fill="#e6d4ff"><animate attributeName="opacity" values="0.51;0.1;0.51" dur="5.4s" begin="-5.4s" repeatCount="indefinite"/></circle>
+    <circle cx="483.7" cy="20.6" r="1.3" fill="#ffffff" opacity="0.45"/>
+    <circle cx="587.4" cy="84.7" r="0.5" fill="#ffffff" opacity="0.87"/>
+    <circle cx="27.2" cy="42.9" r="1.0" fill="#ffffff" opacity="0.80"/>
+    <circle cx="574.5" cy="75.6" r="1.3" fill="#e6d4ff" opacity="0.78"/>
+    <circle cx="119.3" cy="22.2" r="0.6" fill="#e6d4ff" opacity="0.73"/>
+    <circle cx="379.5" cy="110.3" r="0.6" fill="#ffffff" opacity="0.30"/>
+    <circle cx="751.8" cy="41.9" r="0.5" fill="#e6d4ff" opacity="0.29"/>
+    <circle cx="585.8" cy="43.4" r="0.5" fill="#e6d4ff" opacity="0.38"/>
+    <circle cx="700.8" cy="11.2" r="0.6" fill="#ffffff" opacity="0.41"/>
+    <circle cx="361.2" cy="65.0" r="0.8" fill="#cfe3ff" opacity="0.41"/>
+    <circle cx="555.3" cy="110.1" r="0.5" fill="#cfe3ff" opacity="0.26"/>
+    <circle cx="728.2" cy="56.9" r="1.3" fill="#cfe3ff" opacity="0.28"/>
+    <circle cx="202.7" cy="33.9" r="0.6" fill="#e6d4ff" opacity="0.61"/>
+    <circle cx="268.1" cy="2.3" r="0.6" fill="#e6d4ff" opacity="0.44"/>
+    <circle cx="309.7" cy="50.0" r="0.5" fill="#e6d4ff" opacity="0.73"/>
+    <circle cx="56.3" cy="18.4" r="0.5" fill="#ffffff" opacity="0.34"/>
+    <circle cx="314.4" cy="55.5" r="0.6" fill="#e6d4ff" opacity="0.69"/>
+    <circle cx="699.8" cy="63.6" r="1.3" fill="#cfe3ff" opacity="0.39"/></g>
+  <rect x="0" y="14" width="4" height="96" rx="2" fill="#b45cff"/>
+  <text x="36" y="30" class="tag">[02 // CRYPTO LIBRARY]</text>
+  <text x="36" y="64" class="name">OxyJWT</text>
+  <text x="36" y="87" class="line">Drop-in PyJWT replacement with a Rust core: up to 4x faster, JWKS support.</text>
+  <text x="36" y="108" class="stack">PYTHON  •  RUST  •  PYO3  •  MATURIN  •  JWKS</text>
+  <line x1="660" y1="24" x2="660" y2="100" stroke="#241a4a" stroke-width="1"/>
+  <text x="684" y="36" class="lbl">STARS</text>
+  <text x="684" y="72" class="val">★ 3</text>
+  <text x="684" y="94" class="sub">OPEN SOURCE</text>
+</svg>
