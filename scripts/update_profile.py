@@ -39,6 +39,32 @@ PROJECTS = [
      "RUST  •  CLICKHOUSE  •  QUERYA EXTENSION", "#fbbf24"),
 ]
 
+PYPI_PACKAGES = {
+    "OxyJWT": "oxyjwt",
+    "OxyRoute": "oxyroute",
+}
+
+
+def pypi_downloads(package):
+    """Fetch total downloads from pypistats.org API (without mirrors)."""
+    url = f"https://pypistats.org/api/packages/{package}/overall"
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "QueryaHub-ProfileUpdater/1.0", "Accept": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.load(resp)
+            return sum(
+                x["downloads"]
+                for x in data.get("data", [])
+                if x.get("category") == "without_mirrors"
+            )
+    except Exception as e:
+        print(f"Warning: failed to fetch PyPI downloads for {package}: {e}")
+        return 0
+
+
 
 def api(path):
     url = f"https://api.github.com{path}{'&' if '?' in path else '?'}per_page=100"
@@ -235,6 +261,8 @@ def main():
             total += sum(a["download_count"] for a in rel["assets"])
             if r["name"] == "Querya-Desktop" and latest is None and not rel["prerelease"]:
                 latest = rel["tag_name"]
+        if r["name"] in PYPI_PACKAGES:
+            total += pypi_downloads(PYPI_PACKAGES[r["name"]])
         downloads[r["name"]] = total
         for u in api(f"/repos/{ORG}/{r['name']}/contributors"):
             if is_bot(u):
@@ -251,7 +279,7 @@ def main():
 
     (ASSETS / "stats.svg").write_text(stats_svg([
         ("STARS", compact(stars), "ACROSS ALL REPOSITORIES", "#fbbf24"),
-        ("DOWNLOADS", compact(sum(downloads.values())), "ALL RELEASES, ALL VERSIONS", "#b45cff"),
+        ("DOWNLOADS", compact(sum(downloads.values())), "ALL RELEASES & PACKAGES", "#b45cff"),
         ("CREW", len(people), "HUMAN CONTRIBUTORS", "#4fb0f5"),
         ("LATEST", latest or "-", "QUERYA DESKTOP", "#5eead4"),
     ]))
