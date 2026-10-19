@@ -61,7 +61,7 @@ Everyone who has committed to a Querya project. Refreshed daily.
 <!--CREW:START-->
 <table align="center">
   <tr>
-    <td align="center" width="110"><a href="https://github.com/ZhuchkaTriplesix"><img src="https://github.com/ZhuchkaTriplesix.png?size=140" width="72" height="72" alt="ZhuchkaTriplesix" /><br/><sub><b>ZhuchkaTriplesix</b></sub></a><br/><sub>3226 commits</sub></td>
+    <td align="center" width="110"><a href="https://github.com/ZhuchkaTriplesix"><img src="https://github.com/ZhuchkaTriplesix.png?size=140" width="72" height="72" alt="ZhuchkaTriplesix" /><br/><sub><b>ZhuchkaTriplesix</b></sub></a><br/><sub>3289 commits</sub></td>
     <td align="center" width="110"><a href="https://github.com/Reei-dp"><img src="https://github.com/Reei-dp.png?size=140" width="72" height="72" alt="Reei-dp" /><br/><sub><b>Reei-dp</b></sub></a><br/><sub>49 commits</sub></td>
   </tr>
 </table>
