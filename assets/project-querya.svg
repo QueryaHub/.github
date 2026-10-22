@@ -47,6 +47,6 @@
   <text x="36" y="108" class="stack">FLUTTER  •  POSTGRESQL  •  MYSQL  •  SQLITE  •  REDIS  •  MONGODB</text>
   <line x1="660" y1="24" x2="660" y2="100" stroke="#241a4a" stroke-width="1"/>
   <text x="684" y="36" class="lbl">STARS</text>
-  <text x="684" y="72" class="val">★ 23</text>
-  <text x="684" y="94" class="sub">568 DOWNLOADS</text>
+  <text x="684" y="72" class="val">★ 25</text>
+  <text x="684" y="94" class="sub">609 DOWNLOADS</text>
 </svg>
